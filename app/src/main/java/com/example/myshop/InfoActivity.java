@@ -19,7 +19,7 @@ public class InfoActivity extends AppCompatActivity implements View.OnClickListe
     TextView textInfo;
     Button btnInfoBack;
     int no = 0;
-    int imgs[] = {R.drawable.info1,R.drawable.info2,R.drawable.info3, R.drawable.info4,R.drawable.info5};
+    int imgs[] = {R.drawable.kyoto,R.drawable.istanbul,R.drawable.shine, R.drawable.lunden,R.drawable.lutetia_parisiorum};
     String text[] = {"1번 이미지 설명","2번 이미지 설명","3번 이미지 설명","4번 이미지 설명","5번 이미지 설명"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
