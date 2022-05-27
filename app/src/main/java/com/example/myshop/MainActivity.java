@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
         catch(Exception e)
         {
-            Log.d("JB","Error(code:1)");
+            Log.d("JB","Error("+e.getMessage()+")");
         }
 
     }
